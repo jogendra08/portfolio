@@ -1,0 +1,111 @@
+
+/* Style the navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+/* Style the navigation items */
+.nav-items ul {
+  display: flex;
+}
+
+.nav-items ul li {
+  margin-right: 20px;
+}
+
+.nav-items ul li:last-child {
+  margin-right: 0;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Style the logo */
+.logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+/* Style the social icons */
+.social-icons a {
+  margin-right: 10px;
+}
+
+.social-icons img {
+  max-width: 30px;
+  height: auto;
+}
+
+
+/* Styles for screens larger than 768px */
+@media (min-width: 769px) {
+  /* Display navigation items horizontally */
+  .nav-items ul {
+      flex-direction: row;
+  }
+
+  /* Add space to the right of the logo */
+  .logo {
+      margin-right: auto;
+  }
+}
+
+/* Styles for screens 768px and smaller */
+@media (max-width: 768px) {
+  /* Stack navigation items vertically */
+  .nav-items ul {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  /* Center-align the logo */
+  .logo {
+      text-align: center;
+      margin: 10px 0;
+  }
+
+  /* Add some spacing to social icons */
+  .social-icons {
+      margin-top: 20px;
+  }
+}
+
+
+/* Styles for screens larger than 768px */
+@media (min-width: 769px) {
+  /* Display navigation items horizontally */
+  .nav-items ul {
+      flex-direction: row;
+  }
+
+  /* Add space to the right of the logo */
+  .logo {
+      margin-right: auto;
+  }
+}
+
+/* Styles for screens 768px and smaller */
+@media (max-width: 768px) {
+  /* Stack navigation items vertically */
+  .nav-items ul {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  /* Center-align the logo */
+  .logo {
+      text-align: center;
+      margin: 10px 0;
+  }
+
+  /* Add some spacing to social icons */
+  .social-icons {
+      margin-top: 20px;
+  }
+}

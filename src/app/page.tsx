@@ -1,13 +1,15 @@
 import styles from './page.module.css'
-import Header from "./components/Header"
-import Footer from "./components/Footer"
+// import Header from "./components/Header"
+// import Footer from "./components/Footer"
+import Index from './components/Header/index'
 
 export default function Home() {
   return (
     <>
-    <Header/>
+    <Index/>
+    {/* <Header/> */}
     <h1>hello</h1>
-    <Footer/>
+    {/* <Footer/> */}
     </>
   )
 }

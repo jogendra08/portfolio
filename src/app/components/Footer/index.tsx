@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Header = () => {
+const index = () => {
   return (
     <div>
-      header
+      
     </div>
   )
 }
 
-export default Header
+export default index
